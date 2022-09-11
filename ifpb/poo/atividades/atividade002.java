@@ -19,7 +19,6 @@ public class atividade002 {
         nota4 = nota.nextInt();
 
         int media = (nota1 + nota2 + nota3 + nota4) / 4;
-
         System.out.println("Media Final: " + media);
     }
 }
