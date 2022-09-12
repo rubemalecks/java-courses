@@ -4,7 +4,7 @@ import javax.sound.midi.Soundbank;
 
 public class atividade004 {
     public static void main(String[] args) {
-        double base, altura, area;
+        double base, altura;
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Base = ");
