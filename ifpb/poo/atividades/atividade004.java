@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.sound.midi.Soundbank;
-
 public class atividade004 {
     public static void main(String[] args) {
         double base, altura;
@@ -10,8 +8,8 @@ public class atividade004 {
         System.out.print("Base = ");
         base = sc.nextDouble();
         System.out.print("Altura = ");
-        altura = sc.nextDouble(); 
-        System.out.println("Area => "+ (base*altura)/2); 
+        altura = sc.nextDouble();
+        System.out.println("Area => " + (base * altura) / 2);
     }
-    
+
 }
