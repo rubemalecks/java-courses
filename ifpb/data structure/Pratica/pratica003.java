@@ -8,7 +8,7 @@ public class pratica003 {
         System.out.println("Panificadora Pão de Ontem - Tabela de Precos");
         for (int i = 1; i <= 50; i++) {
             float price = i * valor;
-            System.out.printf("%d - R$ %.2f\n",i, price);
+            System.out.printf("%2d - R$ %.2f\n",i, price);
         }
 
     }
