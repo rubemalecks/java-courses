@@ -1,4 +1,4 @@
-public class q005 {
+public class Main {
     public static void main(String[] args) {
         int n = 1;
         int soma = 0;
