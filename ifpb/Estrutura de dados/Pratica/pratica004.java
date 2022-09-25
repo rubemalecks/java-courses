@@ -14,7 +14,7 @@ public class pratica004 {
         }
         
         System.out.print("Total: "+ soma);
-        
+        sc.close();
 
     }
     
