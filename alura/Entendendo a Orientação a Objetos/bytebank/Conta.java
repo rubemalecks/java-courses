@@ -1,20 +1,20 @@
 public class Conta {
     double saldo;
-    int agencia;
+    double agencia;
     int numero;
     String titular;
 
     public void deposita(double valor) {
-        this.saldo += valor; //"this." não é obrigatorios neste momento.
+        this.saldo += valor; // "this." não é obrigatórios neste momento.
     }
+
     public boolean saca(double valor) {
-        if(this.saldo >= valor) {
+        if (this.saldo >= valor) {
             this.saldo -= valor;
             return true;
-        }  else { 
+        } else {
             return false;
         }
 
-    }    
-
+    }
 }
