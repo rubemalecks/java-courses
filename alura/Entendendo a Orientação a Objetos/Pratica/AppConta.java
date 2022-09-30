@@ -49,8 +49,8 @@ public class AppConta {
                 case 4:
                     System.out.print("Valor de Saque: R$");
                     double vlr_saq = sc.nextDouble();
-                    boolean conseguiurSacar = rubinhoConta.saque(vlr_saq);
-                    if (!conseguiurSacar){
+                    boolean conseguiuSacar = rubinhoConta.saque(vlr_saq);
+                    if (!conseguiuSacar){
                         System.out.println("Sem Saldo Disponivel ...");
                     }
                     continue;
