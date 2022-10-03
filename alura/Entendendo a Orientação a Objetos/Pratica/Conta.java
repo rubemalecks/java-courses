@@ -1,8 +1,12 @@
 public class Conta {
+
+    // atributos da conta / caracteristicas / variaveis
     int agencia;
     int conta;
     double saldo;
     String titular;
+
+    // metodos da conta
 
     void deposita (double valor){
         this.saldo += valor;
@@ -16,7 +20,7 @@ public class Conta {
         return false;
     }
 
-    public boolean tranfere(double valor, Conta destino){
+    boolean tranfere(double valor, Conta destino){
         if (this.saldo >= valor){
             this.saldo -= valor;
             destino.deposita(valor);
