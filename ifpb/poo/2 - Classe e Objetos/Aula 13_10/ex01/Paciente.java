@@ -1,6 +1,6 @@
 public class Paciente {
 
-    public Paciente(int CPF, String nome, float peso, float altura) {
+    public Paciente(int CPF, String nome, double peso, double altura) {
         this.CPF = CPF;
         this.nome = nome;
         this.peso = peso;
@@ -9,8 +9,8 @@ public class Paciente {
 
     private int CPF;
     private String nome;
-    private float peso;
-    private float altura;
+    private double peso;
+    private double altura;
 
     public int getCPF() {
         return this.CPF;
@@ -28,19 +28,19 @@ public class Paciente {
         this.nome = nome;
     }
 
-    public float getpeso() {
+    public double getpeso() {
         return this.peso;
     }
 
-    public void setpeso(float peso) {
+    public void setpeso(double peso) {
         this.peso = peso;
     }
 
-    public float getaltura() {
+    public double getaltura() {
         return this.altura;
     }
 
-    public void Setaltura(float altura) {
+    public void setaltura(double altura) {
         this.altura = altura;
     }
 }
