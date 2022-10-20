@@ -3,8 +3,10 @@
 EX: Conta-Corrente ...
 
 ### Uma conta tem ...
+
 #### [ ATRIBUTOS ]
-- saldo: 
+
+- saldo:
 - agencia:
 - numero:
 - titular:
@@ -12,28 +14,30 @@ EX: Conta-Corrente ...
 > estes são os **atributos** da conta, ou seja, as características da conta.
 
 ## Uma conta faz ...
+
 #### [ METODOS DE CONTA ]
-- Tranfere( )
+
+> ("o que uma conta faz? ")
+
+- Transfere( )
 - Depositar ( )
 - Sacar( )
 - Consulta saldo( )
 
-> estes são os métodos da conta ("o que uma conta faz")
-
-
-# OK ??
+> estes são os métodos da conta
 
 ### PENSANDO + UM POUCO
 
-Criamos uma especificação do que representa um conta, todavia, o saldo/agencia/numero/titulo de uma conta vão ser diferentes, tendo em mente isso ... a especificação é só uma representação do que é uma conta, mas não é a própria conta.
+Criamos uma especificação do que representa um conta, todavia, as características de cada conta vão ser diferentes, tendo em mente isso ... a especificação é só uma representação do que é uma conta, mas não é a própria conta.
 
-> podemos associar também a uma planta de uma casa... Uma planta tem tudo que representa a casa, porém essa planta não é e nunca vai ser uma casa.
+> podemos associar também a uma planta de uma casa. Uma planta tem tudo que representa a casa, porém essa planta não é uma casa.
 
 #### Então ...
 
-A partir desta representação da casa poderemos contruir uma casa com tais características, da mesma forma a conta-corrente.
+A partir desta representação da casa poderemos construir uma casa com tais características, da mesma forma a conta-corrente.
 
-### Pratica: 
+### Pratica:
+
 ```
 tipo Conta:
     saldo
@@ -42,7 +46,9 @@ tipo Conta:
     titular
 
 ```
+
 **Em java:**
+
 ```
 class Conta{
     double saldo;
@@ -51,4 +57,3 @@ class Conta{
     String titular;
 }
 ```
-
