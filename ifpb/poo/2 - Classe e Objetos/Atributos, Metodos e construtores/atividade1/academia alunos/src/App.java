@@ -15,7 +15,7 @@ public class App {
         System.out.print("Altura: ");
         aluno.setAltura(sc.nextDouble());
         System.out.println("=============================");
-        System.out.println("\nRegistro do aluno: " + aluno.getNome());
+        System.out.println("Registro do aluno: " + aluno.getNome());
         System.out.println("Idade: " + aluno.getIdade());
         System.out.println("Peso: " + aluno.getPeso());
         System.out.println("Altura: " + aluno.getAltura());
