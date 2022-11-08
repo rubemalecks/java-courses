@@ -1,5 +1,6 @@
 package alunos;
 
+
 public class registro {
     // atributos da classe
     private String nome;
@@ -55,7 +56,8 @@ public class registro {
 
     // Métodos da classe
     public double imc() {
-        return (peso / altura) * 2;
+        //return peso / Math.pow(altura, 2); //(altura^2);
+        return peso / (altura*altura);
     }
 
     public String temDesc(int idade){
