@@ -50,12 +50,13 @@ public class Conta {
         setSaldo(this.saldo += valor);
     }
 
-    public void saque(double valor) {
+    public String saque(double valor) {
         if (this.saldo >= valor) {
             setSaldo(saldo - valor);
-            System.out.println("Transação Efetuada!!");
+            return "Transação Efetuada!!";
         }else{
-        System.out.println("Saldo indisponível.\tTransação Cancelada");}  
+            return "Saldo indisponível.\tTransação Cancelada";
+        }  
     }
 
 }

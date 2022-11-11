@@ -48,7 +48,7 @@ public class Contato {
     // Métodos da Classe
 
     public String toString(){
-        String dados = "\n\nNome "  + this.getNome() + "\nCel: " + this.getCelular() + "\nendereco: " + this.getEndereco();
+        String dados = "\n\nNome "  + this.getNome() + "\nCel: " + this.getCelular() + "\nEndereco: " + this.getEndereco();
         return dados; 
     }
 

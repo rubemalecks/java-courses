@@ -32,7 +32,7 @@ public class App {
 
                 case 3:
                     System.out.print("Valor do Saque R$ ");
-                    emanuelConta.saque(entrada.nextDouble());
+                    System.out.print(emanuelConta.saque(entrada.nextDouble()));
                     continue;
 
             }
