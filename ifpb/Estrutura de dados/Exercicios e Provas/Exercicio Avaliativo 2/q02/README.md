@@ -1,2 +1,2 @@
-![label](enunciado1.png%0D)
+![label](enunciado1.png)
 ![Alt text](enunciado2.png)
