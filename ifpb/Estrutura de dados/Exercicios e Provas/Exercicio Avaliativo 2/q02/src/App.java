@@ -55,6 +55,8 @@ public class App {
         System.out.printf("\nProduto mais barato: Doce %d, R$%.2f/kg\n", posMenor(precosUnitarios) + 1,
                 precosUnitarios[posMenor(precosUnitarios)]);
         System.out.printf("Foram comprados %dg de doce por R$%.2f", pesoTot(pesos), pedidoTot(precos));
+        entrada.close();
+
 
     }
 }
