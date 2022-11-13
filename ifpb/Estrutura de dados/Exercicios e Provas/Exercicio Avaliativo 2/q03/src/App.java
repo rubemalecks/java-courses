@@ -43,7 +43,7 @@ public class App {
         Scanner entrada = new Scanner(System.in);
         System.out.print("Informe os numeros do painel que quer montar: ");
         String numeros = entrada.nextLine();
-        System.out.println(calcularLeds(numeros));
+        System.out.println("Quantidade de leds necessarios: "+ calcularLeds(numeros));
         entrada.close();
     }
 }
