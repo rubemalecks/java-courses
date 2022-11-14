@@ -15,8 +15,8 @@ na pratica:
 
 ou seja ...
 
-![Alt text](../../../../../../../../c:/Users/Rubinho/Desktop/java-courses/alura/Entendendo%20a%20Orienta%C3%A7%C3%A3o%20a%20Objetos/Referencia%20Null/img%20objects/conta.png)
 
+![Alt text](img%20objects/conta.png)
 
 - > O atributo titular faz referencia aos dados do cliente(nome, cpf, profissão)
 
