@@ -1,0 +1,1 @@
+#### Basicamente pegar tudo que retornar String e colocar como Object.
