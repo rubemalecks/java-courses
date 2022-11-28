@@ -8,6 +8,7 @@ public class Vetor {
     public Vetor(int capacidade) {
         this.elementos = new String[capacidade];
     }
+    
     public void adiciona(String elemento){
         for (int i = 0; i < elementos.length; i++){
             if(this.elementos[i] == null){
