@@ -1,15 +1,15 @@
 package classes;
 
 public class Carro {
-    private String modelo;
-    private String placa;
-    private float preco;
-    private boolean temBlindagem;
-    private boolean temAlarme;
-    private boolean temVidroEletrico;
+    protected String modelo;
+    protected String placa;
+    protected float preco;
+    protected boolean temBlindagem;
+    protected boolean temAlarme;
+    protected boolean temVidroEletrico;
+    private int acres;
 
     public int acrescimos() {
-        int acres = 0;
         if (this.temAlarme) {
             acres++;
         }
@@ -20,12 +20,11 @@ public class Carro {
         if (this.temVidroEletrico) {
             acres++;
         }
-
-        return acres;
+        return this.acres; // qtd acréscimos
     }
 
     public String getModelo() {
-        return modelo;
+        return this.modelo;
     }
 
     public void setModelo(String modelo) {
@@ -33,7 +32,7 @@ public class Carro {
     }
 
     public String getPlaca() {
-        return placa;
+        return this.placa;
     }
 
     public void setPlaca(String placa) {
@@ -41,7 +40,7 @@ public class Carro {
     }
 
     public float getPreco() {
-        return preco + ((this.acrescimos() * 3 / preco) * 100);
+        return this.preco;
     }
 
     public void setPreco(float preco) {
@@ -49,7 +48,7 @@ public class Carro {
     }
 
     public boolean isTemBlindagem() {
-        return temBlindagem;
+        return this.temBlindagem;
     }
 
     public void setTemBlindagem(boolean temBlindagem) {
