@@ -1,5 +1,4 @@
-import classes.CarroLuxo;
-import classes.CarroPopular;
+import classes.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
