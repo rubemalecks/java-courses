@@ -3,7 +3,7 @@ import classes.CarroPopular;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        CarroPopular carro = new CarroPopular();
+        Carro carro = new CarroPopular();
         carro.setModelo("GOL");
         carro.setPlaca("RLR9942");
         carro.setPreco(40000);
@@ -14,7 +14,7 @@ public class App {
                 carro.getModelo(), carro.getPreco());
 
         System.out.println("===========================");
-        CarroLuxo carro2 = new CarroLuxo();
+        Carro carro2 = new CarroLuxo();
         carro2.setModelo("BMW");
         carro2.setPlaca("RUB4242");
         carro2.setPreco(40000);
