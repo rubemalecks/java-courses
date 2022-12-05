@@ -1,5 +1,9 @@
 # LISTA ENCADEADA
 
+
+<img src="loianeexemplo.jpg" alt="loianeexemplo.jpg" width="500"/>
+
+
 * É UMA ESTRUTURA DE DADOS QUE ARMAZENA OS VALORES EM UMA SEQUENCIA DE "NÓS".
 
 * CADA "NÓ" CONHECE SEU SUCESSOR (OU ANTECESSOR SE FOR UMA LISTA DUPLAMENTE ENCADEADA).
@@ -28,11 +32,11 @@ Exemplo:
 
 Lista encadeada guarda o valor e uma referencia para o proximo:
 
-![Alt text](exemplo1.jpg)
+<img src="exemplo1.jpg" alt="exemplo1.jpg" width="500"/>
 
 
 ## Vantagem:
 
 Sendo assim caso precisar colocar um novo item "no meio", basta apontarmos o nó anterior para o novo e o nó do novo para o próximo. Sem precisar mexer em toda estrutura. Diferente do array que teria que mudar todos os elementos seguintes.
 
-![Alt text](exemplo2.jpg)
+<img src="exemplo2.jpg" alt="exemplo2.jpg" width="500"/>
