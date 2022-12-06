@@ -6,6 +6,7 @@ public class App {
         lista.adiciona(9);
 
         System.out.println(lista);
+        System.out.println("tamanho: " +lista.getTamanho());
 
     }
 }
