@@ -15,7 +15,7 @@ Primeiramente precisamos:
 No Vscode:
 
 
-Crie ou abra um projeto, após isso seleciona a opção no canto esquerdo:
+Crie ou abra um projeto javafx, após isso seleciona a opção no canto esquerdo:
 
 <img src="img/reflibjar.jpg" width="777">
 
